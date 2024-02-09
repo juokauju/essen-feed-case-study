@@ -17,7 +17,7 @@ public class RemoteFeedLoader {
         case connectivity
     }
     
-    init(url: URL, client: HTTPClient) {
+    public init(url: URL, client: HTTPClient) {
         self.url = url
         self.client = client
     }

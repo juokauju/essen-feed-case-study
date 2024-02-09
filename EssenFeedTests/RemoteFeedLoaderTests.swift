@@ -4,10 +4,9 @@ import EssenFeed
 class RemoteFeedLoaderTests: XCTestCase {
     
     func test_init() {
-        let worker = HTTPClient()
-        _ = RemoteFeedLoader()
+        let (_, client) = makeSUT()
         
-        XCTAssertNil(worker.requestedURL)
+        XCTAssert(client.requestedURLs.isEmpty)
     }
     
     func test_load_requestDataFromURL() {
@@ -36,7 +35,7 @@ class RemoteFeedLoaderTests: XCTestCase {
         var capturedErrors = [RemoteFeedLoader.Error]()
         sut.load { capturedErrors.append($0) }
         
-        XCTAssertEqual(capturedError, [.connectivity])
+        XCTAssertEqual(capturedErrors, [.connectivity])
     }
     
     // MARK: - Helpers
@@ -56,7 +55,7 @@ class RemoteFeedLoaderTests: XCTestCase {
             if let error {
                 completion(error)
             }
-            requestedURL.append(url)
+            requestedURLs.append(url)
         }
     }
 }
