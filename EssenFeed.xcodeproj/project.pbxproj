@@ -20,6 +20,7 @@
 		555F77102B7670BC0094E173 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555F770F2B7670BC0094E173 /* FeedItem.swift */; };
 		555F77132B7670E90094E173 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555F77122B7670E90094E173 /* RemoteFeedLoader.swift */; };
 		555F77152B7671120094E173 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555F77142B7671120094E173 /* RemoteFeedLoaderTests.swift */; };
+		55D0A2F72B7BB7FA00B56048 /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D0A2F62B7BB7FA00B56048 /* URLSessionHTTPClientTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		555F770F2B7670BC0094E173 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 		555F77122B7670E90094E173 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		555F77142B7671120094E173 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
+		55D0A2F62B7BB7FA00B56048 /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				555F77142B7671120094E173 /* RemoteFeedLoaderTests.swift */,
+				55D0A2F62B7BB7FA00B56048 /* URLSessionHTTPClientTests.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				555F77152B7671120094E173 /* RemoteFeedLoaderTests.swift in Sources */,
+				55D0A2F72B7BB7FA00B56048 /* URLSessionHTTPClientTests.swift in Sources */,
 				555F76F42B76706B0094E173 /* EssenFeedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
