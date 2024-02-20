@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5521C8412B84E5E3005DB0D0 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521C8402B84E5E3005DB0D0 /* XCTestCase+MemoryLeakTracking.swift */; };
 		554242C12B7A5B680005DC9A /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554242C02B7A5B680005DC9A /* HTTPClient.swift */; };
 		554242C32B7A5C460005DC9A /* FeedItemMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554242C22B7A5C460005DC9A /* FeedItemMapper.swift */; };
 		555F76E22B76706A0094E173 /* EssenFeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555F76E12B76706A0094E173 /* EssenFeedApp.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5521C8402B84E5E3005DB0D0 /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
 		554242C02B7A5B680005DC9A /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		554242C22B7A5C460005DC9A /* FeedItemMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemMapper.swift; sourceTree = "<group>"; };
 		555F76DE2B76706A0094E173 /* EssenFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssenFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +144,7 @@
 			children = (
 				555F76F32B76706B0094E173 /* EssenFeedTests.swift */,
 				554242C42B7A63D40005DC9A /* Feed API */,
+				5521C8402B84E5E3005DB0D0 /* XCTestCase+MemoryLeakTracking.swift */,
 			);
 			path = EssenFeedTests;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				555F77152B7671120094E173 /* RemoteFeedLoaderTests.swift in Sources */,
+				5521C8412B84E5E3005DB0D0 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 				55D0A2F72B7BB7FA00B56048 /* URLSessionHTTPClientTests.swift in Sources */,
 				555F76F42B76706B0094E173 /* EssenFeedTests.swift in Sources */,
 			);
